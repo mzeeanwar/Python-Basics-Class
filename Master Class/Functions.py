@@ -7,4 +7,4 @@ def greet(name):
     return f"Hello, {name}!"
 
 print(add(5, 3))          # 8
-print(greet("Shan"))      # Hello, Shan!
+print(greet("Zeeshan"))      # Hello, Shan!
