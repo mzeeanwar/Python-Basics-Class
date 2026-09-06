@@ -2,7 +2,7 @@
 
 # Write to file
 with open("students.txt", "w") as f:
-    f.write("Ali - 85\nSara - 90\nShan - 78\n")
+    f.write("Ali - 85\nSara - 90\nZeeshan - 78\n")
 
 # Read from file
 with open("students.txt", "r") as f:
