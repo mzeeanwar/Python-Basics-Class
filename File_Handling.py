@@ -1,14 +1,19 @@
 # File Handling Example
 
-# Write to file
+# Create and write to students.txt
 with open("students.txt", "w") as f:
-    f.write("Ali - 85\nSara - 90\nZeeshan - 78\n")
+    f.write("Ali - 85\n")
+    f.write("Sara - 90\n")
+    f.write("Zeeshan - 78\n")
 
-# Read from file
+# Read from students.txt
 with open("students.txt", "r") as f:
-    content = f.read()
-    print("File Content:\n", content)
+    print("Students File Content:\n", f.read())
 
-# Append to file
+# Create and append to data.txt
 with open("data.txt", "a") as f:
     f.write("New entry added!\n")
+
+# Read from data.txt
+with open("data.txt", "r") as f:
+    print("Data File Content:\n", f.read())
